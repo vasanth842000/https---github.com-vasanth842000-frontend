@@ -1,0 +1,48 @@
+h3{
+    color: rgb(210, 82, 215);
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid rgba(228, 109, 212, 0.589);
+    
+}
+
+
+.listing{
+    display: inline-block;
+    margin: 20px;
+    background-color: rgba(228, 109, 212, 0.589);
+    border-radius: 10px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px 5px 5px #888888;
+    /* width: 300px;
+    height: 300px; */
+
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+    padding-left: 0%;
+    color: rgb(79, 72, 72);
+    margin-right: 20px;
+    
+    
+}
+
+span{
+   font-weight: bolder;
+}
+
+.table-check{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+    /* margin-top: 0px; */
+    color: grey;
+}
+
+.table-check:hover{
+    color: black;
+}

@@ -1,0 +1,19 @@
+.form-things{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(226, 132, 247, 0.356);
+}
+
+
+.btn{
+    margin-top: 20px;
+    border: 1px solid white;
+    background-color: rgba(231, 68, 231, 0.741);
+    color: white;
+    
+}
+
+h5,p{
+    text-align: center;
+    color: grey;
+}

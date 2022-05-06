@@ -1,0 +1,45 @@
+.full{
+    position: relative;
+}
+img{
+    width: 400px;
+    height: 200px;
+    position:absolute;
+    
+}
+.main-div{
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(238, 186, 226);
+    width: 50%;
+    padding:50px 20px;
+    border-radius: 10px;
+    /* padding-bottom: 200px; */
+
+}
+.btn1{
+    background-color: rgb(195, 88, 186);
+    color: white;
+}
+
+.btn2{
+    color: white;
+    background-color: rgb(233, 137, 227);
+}
+
+.btn{
+    margin-top: 10px;
+}
+h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(33, 31, 31);
+}
+h6{
+    margin-top: 30px;
+}
+
+.img2{
+    position: absolute;
+    right: 8%;
+    top:41%;
+}

@@ -1,0 +1,23 @@
+
+
+
+
+
+<h3>Employee list</h3>
+
+<div class="">
+   <ul class="listing" *ngFor="let emp of employees">
+       <li><span>Id: </span>{{emp.id}}</li><hr>
+       <li><span>First Name: </span>{{emp.firstName}}</li>
+       <li><span>Last Name: </span>{{emp.lastName}}</li>
+       <li><span>EmailId:</span>  {{emp.emailId}} </li>
+       
+   </ul>
+
+</div>
+
+<a class="table-check" routerLink="/employees">Check with Table here</a>
+
+
+
+
