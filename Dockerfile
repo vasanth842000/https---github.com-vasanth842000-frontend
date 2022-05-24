@@ -4,7 +4,7 @@ WORKDIR D:\Angular-project-main
 
 COPY . .
 
-RUN node_modules/.bin/ng build --prod && npm start
+RUN node_modules/.bin/ng build --prod 
 
 FROM nginx:alpine
 
