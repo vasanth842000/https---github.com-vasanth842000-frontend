@@ -4,7 +4,7 @@ WORKDIR D:\Angular-project-main
 
 COPY . .
 
-RUN npm install --save-dev @angular/cli@latest && ng v && npm start
+RUN node_modules/.bin/ng build --prod && npm start
 
 FROM nginx:alpine
 
